@@ -9,7 +9,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'ghcr.io/ethan42/sbom-sca-scanner:latest'
+          default: 'ghcr.io/security_hw0_part2:latest'
 
 # env:
 #   REGISTRY: ghcr.io
