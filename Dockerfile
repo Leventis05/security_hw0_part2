@@ -10,7 +10,7 @@ ARG IVYSYN_TMP_RESULTS_PATH=/home/ivyuser/ivysyn-results
 ENV IVYSYN_PATH ${IVYSYN_PATH}
 ENV IVYSYN_TMP_RESULTS_PATH ${IVYSYN_TMP_RESULTS_PATH}
 
-RUN apt-get update && apt-get install -y nano vim screen tmux git python3-pip python3-dev \
+RUN apt-get update && apt-get install -y --fix-missing nano vim screen tmux git python3-pip python3-dev \
     llvm-dev clang-11 ripgrep fd-find python3-venv cmake clang-tools-11 \
     libclang-11-dev openjdk-11-jdk java-common bc build-essential clang nasm wget
 
