@@ -34,4 +34,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ghcr.io/security_hw0_part2:latest
+          tags: ghcr.io/nikteras/security_hw0_part2:latest
