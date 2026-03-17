@@ -29,7 +29,7 @@ COPY --chown=ivyuser:ivyuser . ${IVYSYN_PATH}/
 WORKDIR ${IVYSYN_PATH}
 
 # Install IvySyn
-RUN /bin/bash -c './prep-ivysyn.sh'
+RUN './prep-ivysyn.sh'
 
 CMD ["/bin/bash"]
 
