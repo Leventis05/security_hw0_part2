@@ -9,7 +9,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'ghcr.io/Leventis05/security_hw0_part2:latest'
+          default: 'ghcr.io/security_scan:latest'
 
 # env:
 #   REGISTRY: ghcr.io
