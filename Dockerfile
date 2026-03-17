@@ -24,7 +24,7 @@ USER ivyuser
 
 COPY --chown=ivyuser:ivyuser . ${IVYSYN_PATH}/
 
-# RUN sed -i '1 aset -x' ${IVYSYN_PATH}/prep-ivysyn.sh
+RUN sed -i '1 aset -x' ${IVYSYN_PATH}/prep-ivysyn.sh
 
 WORKDIR ${IVYSYN_PATH}
 
